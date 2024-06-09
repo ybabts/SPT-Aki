@@ -8,4 +8,4 @@ export type * from "./IMetricsTableData.d.ts";
 export type * from "./IPmcData.d.ts";
 export type * from "./Ixyz.d.ts";
 export * from "./request/mod.ts";
-export * from "./tables/mod.ts";
+export * as tables from "./tables/mod.ts";

@@ -1,6 +1,6 @@
-export type * from "./Effect.d.ts";
-export type * from "./IHealthTreatmentRequestData.d.ts";
-export type * from "./IOffraidEatRequestData.d.ts";
-export type * from "./IOffraidHealRequestData.d.ts";
-export type * from "./ISyncHealthRequestData.d.ts";
-export type * from "./IWorkoutData.d.ts";
+export * as Effect from "./Effect.d.ts";
+export * as IHealthTreatmentRequestData from "./IHealthTreatmentRequestData.d.ts";
+export * as IOffraidEatRequestData from "./IOffraidEatRequestData.d.ts";
+export * as IOffraidHealRequestData from "./IOffraidHealRequestData.d.ts";
+export * as ISyncHealthRequestData from "./ISyncHealthRequestData.d.ts";
+export * as IWorkoutData from "./IWorkoutData.d.ts";

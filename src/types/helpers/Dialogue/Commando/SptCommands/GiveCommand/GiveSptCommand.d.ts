@@ -1,7 +1,7 @@
 import { SavedCommand } from "./SavedCommand.d.ts";
 import { ISptCommand } from "../ISptCommand.d.ts";
 import { ItemHelper } from "../../../../ItemHelper.d.ts";
-import { PresetHelper } from "../../../..//PresetHelper.d.ts";
+import { PresetHelper } from "../../../../PresetHelper.d.ts";
 import { ITemplateItem } from "../../../../../models/eft/common/tables/ITemplateItem.d.ts";
 import { ISendMessageRequest } from "../../../../../models/eft/dialog/ISendMessageRequest.d.ts";
 import { IUserDialogInfo } from "../../../../../models/eft/profile/IAkiProfile.d.ts";
