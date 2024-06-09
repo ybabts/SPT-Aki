@@ -1,6 +1,4 @@
-export * from "./AchievementCallbacks.ts";
-export type * from "./BotCallbacks.d.ts";
-export * from "./AchievementCallbacks.ts";
+export type * from "./AchievementCallbacks.d.ts";
 export type * from "./BotCallbacks.d.ts";
 export type * from "./BuildsCallbacks.d.ts";
 export type * from "./BundleCallbacks.d.ts";

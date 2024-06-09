@@ -1,5 +1,5 @@
 export type * from "./AchievementController.d.ts";
-export * from "./BotController.ts";
+export type * from "./BotController.d.ts";
 export type * from "./BuildController.d.ts";
 export type * from "./ClientLogController.d.ts";
 export type * from "./CustomizationController.d.ts";
