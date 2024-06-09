@@ -1,0 +1,34 @@
+import { IEmptyRequestData } from "../../../models/eft/common/IEmptyRequestData.d.ts";
+import { IFriendRequestData } from "../../../models/eft/dialog/IFriendRequestData.d.ts";
+import { IGetAllAttachmentsRequestData } from "../../../models/eft/dialog/IGetAllAttachmentsRequestData.d.ts";
+import { IGetAllAttachmentsResponse } from "../../../models/eft/dialog/IGetAllAttachmentsResponse.d.ts";
+import { IGetChatServerListRequestData } from "../../../models/eft/dialog/IGetChatServerListRequestData.d.ts";
+import { IGetFriendListDataResponse } from "../../../models/eft/dialog/IGetFriendListDataResponse.d.ts";
+import { IGetMailDialogInfoRequestData } from "../../../models/eft/dialog/IGetMailDialogInfoRequestData.d.ts";
+import { IGetMailDialogListRequestData } from "../../../models/eft/dialog/IGetMailDialogListRequestData.d.ts";
+import { IGetMailDialogViewRequestData } from "../../../models/eft/dialog/IGetMailDialogViewRequestData.d.ts";
+import { IGetMailDialogViewResponseData } from "../../../models/eft/dialog/IGetMailDialogViewResponseData.d.ts";
+import { IPinDialogRequestData } from "../../../models/eft/dialog/IPinDialogRequestData.d.ts";
+import { IRemoveDialogRequestData } from "../../../models/eft/dialog/IRemoveDialogRequestData.d.ts";
+import { ISendMessageRequest } from "../../../models/eft/dialog/ISendMessageRequest.d.ts";
+import { ISetDialogReadRequestData } from "../../../models/eft/dialog/ISetDialogReadRequestData.d.ts";
+import { IGetBodyResponseData } from "../../../models/eft/httpResponse/IGetBodyResponseData.d.ts";
+import { INullResponseData } from "../../../models/eft/httpResponse/INullResponseData.d.ts";
+import { DialogueInfo } from "../../../models/eft/profile/IAkiProfile.d.ts";
+export interface IDialogueCallbacks {
+    getFriendList(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<IGetFriendListDataResponse>;
+    getChatServerList(url: string, info: IGetChatServerListRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    getMailDialogList(url: string, info: IGetMailDialogListRequestData, sessionID: string): IGetBodyResponseData<DialogueInfo[]>;
+    getMailDialogView(url: string, info: IGetMailDialogViewRequestData, sessionID: string): IGetBodyResponseData<IGetMailDialogViewResponseData>;
+    getMailDialogInfo(url: string, info: IGetMailDialogInfoRequestData, sessionID: string): IGetBodyResponseData<any>;
+    removeDialog(url: string, info: IRemoveDialogRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    pinDialog(url: string, info: IPinDialogRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    unpinDialog(url: string, info: IPinDialogRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    setRead(url: string, info: ISetDialogReadRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    getAllAttachments(url: string, info: IGetAllAttachmentsRequestData, sessionID: string): IGetBodyResponseData<IGetAllAttachmentsResponse>;
+    listOutbox(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    listInbox(url: string, info: IEmptyRequestData, sessionID: string): IGetBodyResponseData<any[]>;
+    sendFriendRequest(url: string, request: IFriendRequestData, sessionID: string): INullResponseData;
+    sendMessage(url: string, request: ISendMessageRequest, sessionID: string): IGetBodyResponseData<number>;
+    update(): boolean;
+}
