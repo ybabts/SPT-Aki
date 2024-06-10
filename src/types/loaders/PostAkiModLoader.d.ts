@@ -1,4 +1,4 @@
-import { DependencyContainer } from "npm:tsyringe";
+import { DependencyContainer } from "npm:tsyringe@4.2.0";
 import { ModTypeCheck } from "../loaders/ModTypeCheck.d.ts";
 import { PreAkiModLoader } from "../loaders/PreAkiModLoader.d.ts";
 import { IModLoader } from "../models/spt/mod/IModLoader.d.ts";

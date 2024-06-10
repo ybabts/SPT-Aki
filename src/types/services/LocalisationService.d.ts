@@ -1,4 +1,4 @@
-import { I18n } from "npm:i18n";
+import { I18n } from "npm:i18n@0.15.1";
 import { ILogger } from "../models/spt/utils/ILogger.d.ts";
 import { DatabaseServer } from "../servers/DatabaseServer.d.ts";
 import { LocaleService } from "../services/LocaleService.d.ts";

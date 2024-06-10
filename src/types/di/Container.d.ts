@@ -1,4 +1,4 @@
-import { DependencyContainer } from "npm:tsyringe";
+import { DependencyContainer } from "npm:tsyringe@4.2.0";
 /**
  * Handle the registration of classes to be used by the Dependency Injection code
  */

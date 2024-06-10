@@ -1,4 +1,4 @@
-import { DependencyContainer } from "npm:tsyringe";
+import { DependencyContainer } from "npm:tsyringe@4.2.0";
 export declare class OnUpdateModService {
     protected container: DependencyContainer;
     constructor(container: DependencyContainer);

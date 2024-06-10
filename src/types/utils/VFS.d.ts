@@ -1,4 +1,4 @@
-import "npm:reflect-metadata";
+import "npm:reflect-metadata@0.1.10";
 import fs from "node:fs";
 import { IAsyncQueue } from "../models/spt/utils/IAsyncQueue.d.ts";
 import { BufferEncoding } from "npm:typescript";
