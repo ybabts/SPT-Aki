@@ -1,4 +1,4 @@
-import { IParseOptions, IStringifyOptions, Reviver } from "npm:jsonc/lib/interfaces";
+import { IParseOptions, IStringifyOptions, Reviver } from "npm:jsonc@2.0.0/lib/interfaces";
 import { ILogger } from "../models/spt/utils/ILogger.d.ts";
 import { HashUtil } from "../utils/HashUtil.d.ts";
 import { VFS } from "../utils/VFS.d.ts";
