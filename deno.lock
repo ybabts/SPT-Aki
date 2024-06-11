@@ -2,19 +2,13 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:i18n@0.15.1": "npm:i18n@0.15.1",
-      "npm:jsonc": "npm:jsonc@2.0.0",
       "npm:jsonc@2.0.0": "npm:jsonc@2.0.0",
       "npm:reflect-metadata@0.1.10": "npm:reflect-metadata@0.1.10",
       "npm:source-map-support@0.5.21": "npm:source-map-support@0.5.21",
-      "npm:tsyringe@4.2.0": "npm:tsyringe@4.2.0",
-      "npm:typescript": "npm:typescript@5.4.5",
-      "npm:typescript@4.4.3": "npm:typescript@4.4.3",
-      "npm:typescript@4.9.5": "npm:typescript@4.9.5",
-      "npm:winston": "npm:winston@3.13.0",
+      "npm:tsyringe@4.8.0": "npm:tsyringe@4.8.0",
+      "npm:typescript@5.4.5": "npm:typescript@5.4.5",
       "npm:winston@3.13.0": "npm:winston@3.13.0",
-      "npm:ws": "npm:ws@8.17.0",
       "npm:ws@8.6.0": "npm:ws@8.6.0"
     },
     "npm": {
@@ -60,10 +54,6 @@
         "dependencies": {
           "make-plural": "make-plural@7.4.0"
         }
-      },
-      "@types/node@18.16.19": {
-        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
-        "dependencies": {}
       },
       "@types/triple-beam@1.3.5": {
         "integrity": "sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==",
@@ -321,19 +311,11 @@
         "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
         "dependencies": {}
       },
-      "tsyringe@4.2.0": {
-        "integrity": "sha512-NV5BODaXYJJII2MFlSJMiyVVSYW8GjqS5+YAkzATINrH5SlLiz2fS24RLt6/GfodR428ZH6Cykko4yabzJ5wNw==",
+      "tsyringe@4.8.0": {
+        "integrity": "sha512-YB1FG+axdxADa3ncEtRnQCFq/M0lALGLxSZeVNbTU8NqhOVc51nnv2CISTcvc1kyv6EGPtXVr0v6lWeDxiijOA==",
         "dependencies": {
           "tslib": "tslib@1.14.1"
         }
-      },
-      "typescript@4.4.3": {
-        "integrity": "sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==",
-        "dependencies": {}
-      },
-      "typescript@4.9.5": {
-        "integrity": "sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==",
-        "dependencies": {}
       },
       "typescript@5.4.5": {
         "integrity": "sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==",
@@ -366,10 +348,6 @@
           "triple-beam": "triple-beam@1.4.1",
           "winston-transport": "winston-transport@4.7.0"
         }
-      },
-      "ws@8.17.0": {
-        "integrity": "sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==",
-        "dependencies": {}
       },
       "ws@8.6.0": {
         "integrity": "sha512-AzmM3aH3gk0aX7/rZLYvjdvZooofDu3fFOzGqcSnQ1tOcTWwhM/o+q++E8mAyVVIyUdajrkzWUGftaVSDLn1bw==",

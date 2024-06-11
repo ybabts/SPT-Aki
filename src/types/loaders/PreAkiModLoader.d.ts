@@ -1,4 +1,4 @@
-import { DependencyContainer } from "npm:tsyringe@4.2.0";
+import { DependencyContainer } from "npm:tsyringe@4.8.0";
 import { ModLoadOrder } from "../loaders/ModLoadOrder.d.ts";
 import { ModTypeCheck } from "../loaders/ModTypeCheck.d.ts";
 import { ModDetails } from "../models/eft/profile/IAkiProfile.d.ts";

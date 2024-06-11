@@ -1,4 +1,4 @@
-import { DependencyContainer } from "npm:tsyringe@4.2.0";
+import { DependencyContainer } from "npm:tsyringe@4.8.0";
 import { OnLoad } from "../di/OnLoad.d.ts";
 import { BundleLoader } from "../loaders/BundleLoader.d.ts";
 import { ModTypeCheck } from "../loaders/ModTypeCheck.d.ts";
