@@ -1,5 +1,5 @@
 import http, { IncomingMessage } from "node:http";
-import WebSocket from "npm:ws";
+import WebSocket from "npm:ws@8.6.0";
 import { HttpServerHelper } from "../helpers/HttpServerHelper.d.ts";
 import { ProfileHelper } from "../helpers/ProfileHelper.d.ts";
 import { INotification } from "../models/eft/notifier/INotifier.d.ts";

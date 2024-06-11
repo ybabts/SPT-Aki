@@ -14,7 +14,8 @@
       "npm:typescript@4.9.5": "npm:typescript@4.9.5",
       "npm:winston": "npm:winston@3.13.0",
       "npm:winston@3.13.0": "npm:winston@3.13.0",
-      "npm:ws": "npm:ws@8.17.0"
+      "npm:ws": "npm:ws@8.17.0",
+      "npm:ws@8.6.0": "npm:ws@8.6.0"
     },
     "npm": {
       "@colors/colors@1.6.0": {
@@ -368,6 +369,10 @@
       },
       "ws@8.17.0": {
         "integrity": "sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==",
+        "dependencies": {}
+      },
+      "ws@8.6.0": {
+        "integrity": "sha512-AzmM3aH3gk0aX7/rZLYvjdvZooofDu3fFOzGqcSnQ1tOcTWwhM/o+q++E8mAyVVIyUdajrkzWUGftaVSDLn1bw==",
         "dependencies": {}
       }
     }
