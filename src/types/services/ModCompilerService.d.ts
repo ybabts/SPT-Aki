@@ -1,4 +1,4 @@
-import ts from "npm:typescript";
+import ts from "npm:typescript@5.4.5";
 import type { ILogger } from "../models/spt/utils/ILogger.d.ts";
 import { ModHashCacheService } from "../services/cache/ModHashCacheService.d.ts";
 import { VFS } from "../utils/VFS.d.ts";

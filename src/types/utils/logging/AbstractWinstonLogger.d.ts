@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import winston from "npm:winston";
+import winston from "npm:winston@3.13.0";
 import { Daum } from "../../models/eft/itemEvent/IItemEventRouterRequest.d.ts";
 import { LogBackgroundColor } from "../../models/spt/logging/LogBackgroundColor.d.ts";
 import { LogTextColor } from "../../models/spt/logging/LogTextColor.d.ts";

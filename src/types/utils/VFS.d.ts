@@ -1,7 +1,7 @@
 import "npm:reflect-metadata@0.1.10";
 import fs from "node:fs";
 import { IAsyncQueue } from "../models/spt/utils/IAsyncQueue.d.ts";
-import { BufferEncoding } from "npm:typescript";
+import { BufferEncoding } from "npm:typescript@5.4.5";
 import { Buffer } from "node:buffer";
 export declare class VFS {
     protected asyncQueue: IAsyncQueue;
