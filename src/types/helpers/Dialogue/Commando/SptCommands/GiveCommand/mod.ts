@@ -1,2 +1,2 @@
-export type * from "./GiveSptCommand.d.ts";
-export type * from "./SavedCommand.d.ts";
+export type * from "./GiveSptCommand.ts";
+export type * from "./SavedCommand.ts";

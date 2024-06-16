@@ -1,7 +1,7 @@
-export type * from "./EventOutputHolder.d.ts";
-export type * from "./HttpRouter.d.ts";
-export type * from "./ImageRouter.d.ts";
-export type * from "./ItemEventRouter.d.ts";
+export type * from "./EventOutputHolder.ts";
+export type * from "./HttpRouter.ts";
+export type * from "./ImageRouter.ts";
+export type * from "./ItemEventRouter.ts";
 export * from "./dynamic/mod.ts";
 export * from "./item_events/mod.ts";
 export * from "./save_load/mod.ts";

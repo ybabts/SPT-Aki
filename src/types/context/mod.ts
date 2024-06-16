@@ -1,3 +1,3 @@
-export type * from "./ApplicationContext.d.ts";
-export type * from "./ContextVariable.d.ts";
-export type * from "./ContextVariableType.d.ts";
+export type * from "./ApplicationContext.ts";
+export type * from "./ContextVariable.ts";
+export type * from "./ContextVariableType.ts";

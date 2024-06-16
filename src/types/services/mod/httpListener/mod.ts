@@ -1,2 +1,2 @@
-export type * from "./HttpListenerMod.d.ts";
-export type * from "./HttpListenerModService.d.ts";
+export type * from "./HttpListenerMod.ts";
+export type * from "./HttpListenerModService.ts";

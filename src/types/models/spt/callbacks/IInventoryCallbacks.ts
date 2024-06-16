@@ -1,0 +1,36 @@
+import type { IPmcData } from "../../../models/eft/common/IPmcData.ts";
+import type { IInventoryBindRequestData } from "../../../models/eft/inventory/IInventoryBindRequestData.ts";
+import type { IInventoryCreateMarkerRequestData } from "../../../models/eft/inventory/IInventoryCreateMarkerRequestData.ts";
+import type { IInventoryDeleteMarkerRequestData } from "../../../models/eft/inventory/IInventoryDeleteMarkerRequestData.ts";
+import type { IInventoryEditMarkerRequestData } from "../../../models/eft/inventory/IInventoryEditMarkerRequestData.ts";
+import type { IInventoryExamineRequestData } from "../../../models/eft/inventory/IInventoryExamineRequestData.ts";
+import type { IInventoryFoldRequestData } from "../../../models/eft/inventory/IInventoryFoldRequestData.ts";
+import type { IInventoryMergeRequestData } from "../../../models/eft/inventory/IInventoryMergeRequestData.ts";
+import type { IInventoryMoveRequestData } from "../../../models/eft/inventory/IInventoryMoveRequestData.ts";
+import type { IInventoryReadEncyclopediaRequestData } from "../../../models/eft/inventory/IInventoryReadEncyclopediaRequestData.ts";
+import type { IInventoryRemoveRequestData } from "../../../models/eft/inventory/IInventoryRemoveRequestData.ts";
+import type { IInventorySortRequestData } from "../../../models/eft/inventory/IInventorySortRequestData.ts";
+import type { IInventorySplitRequestData } from "../../../models/eft/inventory/IInventorySplitRequestData.ts";
+import type { IInventorySwapRequestData } from "../../../models/eft/inventory/IInventorySwapRequestData.ts";
+import type { IInventoryTagRequestData } from "../../../models/eft/inventory/IInventoryTagRequestData.ts";
+import type { IInventoryToggleRequestData } from "../../../models/eft/inventory/IInventoryToggleRequestData.ts";
+import type { IInventoryTransferRequestData } from "../../../models/eft/inventory/IInventoryTransferRequestData.ts";
+import type { IItemEventRouterResponse } from "../../../models/eft/itemEvent/IItemEventRouterResponse.ts";
+export interface IInventoryCallbacks {
+    moveItem(pmcData: IPmcData, body: IInventoryMoveRequestData, sessionID: string): IItemEventRouterResponse;
+    removeItem(pmcData: IPmcData, body: IInventoryRemoveRequestData, sessionID: string): IItemEventRouterResponse;
+    splitItem(pmcData: IPmcData, body: IInventorySplitRequestData, sessionID: string): IItemEventRouterResponse;
+    mergeItem(pmcData: IPmcData, body: IInventoryMergeRequestData, sessionID: string): IItemEventRouterResponse;
+    transferItem(pmcData: IPmcData, body: IInventoryTransferRequestData, sessionID: string): IItemEventRouterResponse;
+    swapItem(pmcData: IPmcData, body: IInventorySwapRequestData, sessionID: string): IItemEventRouterResponse;
+    foldItem(pmcData: IPmcData, body: IInventoryFoldRequestData, sessionID: string): IItemEventRouterResponse;
+    toggleItem(pmcData: IPmcData, body: IInventoryToggleRequestData, sessionID: string): IItemEventRouterResponse;
+    tagItem(pmcData: IPmcData, body: IInventoryTagRequestData, sessionID: string): IItemEventRouterResponse;
+    bindItem(pmcData: IPmcData, body: IInventoryBindRequestData, sessionID: string): IItemEventRouterResponse;
+    examineItem(pmcData: IPmcData, body: IInventoryExamineRequestData, sessionID: string): IItemEventRouterResponse;
+    readEncyclopedia(pmcData: IPmcData, body: IInventoryReadEncyclopediaRequestData, sessionID: string): IItemEventRouterResponse;
+    sortInventory(pmcData: IPmcData, body: IInventorySortRequestData, sessionID: string): IItemEventRouterResponse;
+    createMapMarker(pmcData: IPmcData, body: IInventoryCreateMarkerRequestData, sessionID: string): IItemEventRouterResponse;
+    deleteMapMarker(pmcData: IPmcData, body: IInventoryDeleteMarkerRequestData, sessionID: string): IItemEventRouterResponse;
+    editMapMarker(pmcData: IPmcData, body: IInventoryEditMarkerRequestData, sessionID: string): IItemEventRouterResponse;
+}

@@ -1,3 +1,3 @@
-export type * from "./IChatCommand.d.ts";
-export type * from "./SptCommandoCommands.d.ts";
+export type * from "./IChatCommand.ts";
+export type * from "./SptCommandoCommands.ts";
 export * from "./SptCommands/mod.ts";

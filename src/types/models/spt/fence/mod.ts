@@ -1,2 +1,2 @@
-export type * from "./ICreateFenceAssortsResult.d.ts";
-export type * from "./IFenceAssortGenerationValues.d.ts";
+export type * from "./ICreateFenceAssortsResult.ts";
+export type * from "./IFenceAssortGenerationValues.ts";

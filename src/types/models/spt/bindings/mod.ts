@@ -1,1 +1,1 @@
-export type * from "./Route.d.ts";
+export type * from "./Route.ts";

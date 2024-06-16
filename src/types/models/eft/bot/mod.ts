@@ -1,2 +1,2 @@
-export type * from "./IGenerateBotsRequestData.d.ts";
-export type * from "./IRandomisedBotLevelResult.d.ts";
+export type * from "./IGenerateBotsRequestData.ts";
+export type * from "./IRandomisedBotLevelResult.ts";

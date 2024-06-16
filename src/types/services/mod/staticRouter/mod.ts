@@ -1,2 +1,2 @@
-export type * from "./StaticRouterMod.d.ts";
-export type * from "./StaticRouterModService.d.ts";
+export type * from "./StaticRouterMod.ts";
+export type * from "./StaticRouterModService.ts";

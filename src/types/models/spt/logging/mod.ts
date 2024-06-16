@@ -1,5 +1,5 @@
-export type * from "./IClientLogRequest.d.ts";
-export type * from "./LogBackgroundColor.d.ts";
-export type * from "./LogLevel.d.ts";
-export type * from "./LogTextColor.d.ts";
-export type * from "./SptLogger.d.ts";
+export type * from "./IClientLogRequest.ts";
+export type * from "./LogBackgroundColor.ts";
+export type * from "./LogLevel.ts";
+export type * from "./LogTextColor.ts";
+export type * from "./SptLogger.ts";

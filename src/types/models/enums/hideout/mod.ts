@@ -1,6 +1,6 @@
-export type * from "./QteActivityType.d.ts";
-export type * from "./QteEffectType.d.ts";
-export type * from "./QteResultType.d.ts";
-export type * from "./QteRewardType.d.ts";
-export type * from "./QteType.d.ts";
-export type * from "./RequirementType.d.ts";
+export type * from "./QteActivityType.ts";
+export type * from "./QteEffectType.ts";
+export type * from "./QteResultType.ts";
+export type * from "./QteRewardType.ts";
+export type * from "./QteType.ts";
+export type * from "./RequirementType.ts";

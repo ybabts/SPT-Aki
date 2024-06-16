@@ -1,1 +1,1 @@
-export type * from "./ISendMessageDetails.d.ts";
+export type * from "./ISendMessageDetails.ts";

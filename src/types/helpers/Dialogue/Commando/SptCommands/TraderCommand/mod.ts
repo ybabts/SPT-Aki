@@ -1,1 +1,1 @@
-export type * from "./TraderSptCommand.d.ts";
+export type * from "./TraderSptCommand.ts";

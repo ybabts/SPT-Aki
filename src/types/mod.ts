@@ -1,5 +1,5 @@
-export type * from "./ErrorHandler.d.ts";
-export type * from "./Program.d.ts";
+export type * from "./ErrorHandler.ts";
+export type * from "./Program.ts";
 export * from "./callbacks/mod.ts";
 export * from "./context/mod.ts";
 export * from "./controllers/mod.ts";

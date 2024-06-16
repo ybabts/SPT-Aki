@@ -1,2 +1,2 @@
-export type * from "./BundleHashCacheService.d.ts";
-export type * from "./ModHashCacheService.d.ts";
+export type * from "./BundleHashCacheService.ts";
+export type * from "./ModHashCacheService.ts";

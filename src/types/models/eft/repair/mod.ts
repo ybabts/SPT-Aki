@@ -1,3 +1,3 @@
-export type * from "./IBaseRepairActionDataRequest.d.ts";
-export type * from "./IRepairActionDataRequest.d.ts";
-export type * from "./ITraderRepairActionDataRequest.d.ts";
+export type * from "./IBaseRepairActionDataRequest.ts";
+export type * from "./IRepairActionDataRequest.ts";
+export type * from "./ITraderRepairActionDataRequest.ts";

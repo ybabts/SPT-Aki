@@ -1,1 +1,1 @@
-export type * from "./IPlayerIncrementSkillLevelRequestData.d.ts";
+export type * from "./IPlayerIncrementSkillLevelRequestData.ts";

@@ -1,1 +1,1 @@
-export type * from "./IRagfairServerPrices.d.ts";
+export type * from "./IRagfairServerPrices.ts";

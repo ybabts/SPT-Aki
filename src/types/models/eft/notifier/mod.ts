@@ -1,2 +1,2 @@
-export type * from "./INotifier.d.ts";
-export type * from "./ISelectProfileResponse.d.ts";
+export type * from "./INotifier.ts";
+export type * from "./ISelectProfileResponse.ts";

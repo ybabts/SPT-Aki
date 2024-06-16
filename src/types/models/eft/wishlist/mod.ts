@@ -1,1 +1,1 @@
-export type * from "./IWishlistActionData.d.ts";
+export type * from "./IWishlistActionData.ts";

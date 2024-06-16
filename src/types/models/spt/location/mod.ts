@@ -1,1 +1,1 @@
-export type * from "./IRaidChanges.d.ts";
+export type * from "./IRaidChanges.ts";

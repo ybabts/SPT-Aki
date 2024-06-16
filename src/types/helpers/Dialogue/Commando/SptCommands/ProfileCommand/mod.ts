@@ -1,1 +1,1 @@
-export type * from "./ProfileSptCommand.d.ts";
+export type * from "./ProfileSptCommand.ts";

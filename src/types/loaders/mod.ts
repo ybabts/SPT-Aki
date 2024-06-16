@@ -1,6 +1,6 @@
-export type * from "./BundleLoader.d.ts";
-export type * from "./ModLoadOrder.d.ts";
-export type * from "./ModTypeCheck.d.ts";
-export type * from "./PostAkiModLoader.d.ts";
-export type * from "./PostDBModLoader.d.ts";
-export type * from "./PreAkiModLoader.d.ts";
+export type * from "./BundleLoader.ts";
+export type * from "./ModLoadOrder.ts";
+export type * from "./ModTypeCheck.ts";
+export type * from "./PostAkiModLoader.ts";
+export type * from "./PostDBModLoader.ts";
+export type * from "./PreAkiModLoader.ts";

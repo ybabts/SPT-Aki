@@ -1,1 +1,1 @@
-export type * from "./IWeatherData.d.ts";
+export type * from "./IWeatherData.ts";

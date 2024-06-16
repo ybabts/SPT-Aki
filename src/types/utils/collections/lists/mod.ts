@@ -1,2 +1,2 @@
-export type * from "./LinkedList.d.ts";
-export type * from "./Nodes.d.ts";
+export type * from "./LinkedList.ts";
+export type * from "./Nodes.ts";

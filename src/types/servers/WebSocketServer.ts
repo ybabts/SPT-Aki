@@ -1,0 +1,33 @@
+import http, { IncomingMessage } from "node:http";
+import WebSocket from "npm:ws@8.6.0";
+import type { HttpServerHelper } from "../helpers/HttpServerHelper.ts";
+import type { ProfileHelper } from "../helpers/ProfileHelper.ts";
+import type { INotification } from "../models/eft/notifier/INotifier.ts";
+import type { IHttpConfig } from "../models/spt/config/IHttpConfig.ts";
+import type { ILogger } from "../models/spt/utils/ILogger.ts";
+import type { ConfigServer } from "../servers/ConfigServer.ts";
+import type { LocalisationService } from "../services/LocalisationService.ts";
+import type { JsonUtil } from "../utils/JsonUtil.ts";
+import type { RandomUtil } from "../utils/RandomUtil.ts";
+export declare class WebSocketServer {
+    protected logger: ILogger;
+    protected randomUtil: RandomUtil;
+    protected configServer: ConfigServer;
+    protected localisationService: LocalisationService;
+    protected jsonUtil: JsonUtil;
+    protected httpServerHelper: HttpServerHelper;
+    protected profileHelper: ProfileHelper;
+    constructor(logger: ILogger, randomUtil: RandomUtil, configServer: ConfigServer, localisationService: LocalisationService, jsonUtil: JsonUtil, httpServerHelper: HttpServerHelper, profileHelper: ProfileHelper);
+    protected httpConfig: IHttpConfig;
+    protected defaultNotification: INotification;
+    protected webSocketServer: WebSocket.Server;
+    protected webSockets: Record<string, WebSocket.WebSocket>;
+    protected websocketPingHandler: any;
+    getWebSocketServer(): WebSocket.Server;
+    getSessionWebSocket(sessionID: string): WebSocket.WebSocket;
+    setupWebSocket(httpServer: http.Server): void;
+    sendMessage(sessionID: string, output: INotification): void;
+    protected getRandomisedMessage(): string;
+    isConnectionWebSocket(sessionID: string): boolean;
+    protected wsOnConnection(ws: WebSocket.WebSocket, req: IncomingMessage): void;
+}

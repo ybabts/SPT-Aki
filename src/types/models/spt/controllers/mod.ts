@@ -1,1 +1,1 @@
-export type * from "./IBotController.d.ts";
+export type * from "./IBotController.ts";

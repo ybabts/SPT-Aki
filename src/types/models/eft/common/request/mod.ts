@@ -1,2 +1,2 @@
-export type * from "./IBaseInteractionRequestData.d.ts";
-export type * from "./IUIDRequestData.d.ts";
+export type * from "./IBaseInteractionRequestData.ts";
+export type * from "./IUIDRequestData.ts";

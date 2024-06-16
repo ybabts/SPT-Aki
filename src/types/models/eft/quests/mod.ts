@@ -1,6 +1,6 @@
-export type * from "./IAcceptQuestRequestData.d.ts";
-export type * from "./ICompleteQuestRequestData.d.ts";
-export type * from "./IFailQuestRequestData.d.ts";
-export type * from "./IHandoverQuestRequestData.d.ts";
-export type * from "./IListQuestsRequestData.d.ts";
-export type * from "./IRepeatableQuestChangeRequest.d.ts";
+export type * from "./IAcceptQuestRequestData.ts";
+export type * from "./ICompleteQuestRequestData.ts";
+export type * from "./IFailQuestRequestData.ts";
+export type * from "./IHandoverQuestRequestData.ts";
+export type * from "./IListQuestsRequestData.ts";
+export type * from "./IRepeatableQuestChangeRequest.ts";

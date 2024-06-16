@@ -1,1 +1,1 @@
-export type * from "./INoteActionData.d.ts";
+export type * from "./INoteActionData.ts";

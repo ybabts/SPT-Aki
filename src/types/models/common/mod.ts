@@ -1,1 +1,1 @@
-export type * from "./MinMax.d.ts";
+export type * from "./MinMax.ts";

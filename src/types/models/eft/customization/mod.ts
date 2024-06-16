@@ -1,3 +1,3 @@
-export type * from "./IBuyClothingRequestData.d.ts";
-export type * from "./IGetSuitsResponse.d.ts";
-export type * from "./IWearClothingRequestData.d.ts";
+export type * from "./IBuyClothingRequestData.ts";
+export type * from "./IGetSuitsResponse.ts";
+export type * from "./IWearClothingRequestData.ts";

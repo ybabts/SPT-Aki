@@ -1,2 +1,2 @@
-export type * from "./OnLoadMod.d.ts";
-export type * from "./OnLoadModService.d.ts";
+export type * from "./OnLoadMod.ts";
+export type * from "./OnLoadModService.ts";

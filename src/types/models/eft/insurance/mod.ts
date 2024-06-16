@@ -1,3 +1,3 @@
-export type * from "./IGetInsuranceCostRequestData.d.ts";
-export type * from "./IGetInsuranceCostResponseData.d.ts";
-export type * from "./IInsureRequestData.d.ts";
+export type * from "./IGetInsuranceCostRequestData.ts";
+export type * from "./IGetInsuranceCostResponseData.ts";
+export type * from "./IInsureRequestData.ts";

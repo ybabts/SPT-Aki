@@ -1,3 +1,3 @@
-export type * from "./IModLoader.d.ts";
-export type * from "./IPackageJsonData.d.ts";
-export type * from "./NewItemDetails.d.ts";
+export type * from "./IModLoader.ts";
+export type * from "./IPackageJsonData.ts";
+export type * from "./NewItemDetails.ts";

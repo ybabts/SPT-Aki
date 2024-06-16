@@ -1,4 +1,4 @@
-export type * from "./IInsuredItemsData.d.ts";
-export type * from "./IItemDeliveryRequestData.d.ts";
-export type * from "./IRegisterPlayerRequestData.d.ts";
-export type * from "./ISaveProgressRequestData.d.ts";
+export type * from "./IInsuredItemsData.ts";
+export type * from "./IItemDeliveryRequestData.ts";
+export type * from "./IRegisterPlayerRequestData.ts";
+export type * from "./ISaveProgressRequestData.ts";

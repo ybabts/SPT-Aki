@@ -1,1 +1,1 @@
-export type * from "./Queue.d.ts";
+export type * from "./Queue.ts";

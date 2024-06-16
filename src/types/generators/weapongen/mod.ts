@@ -1,3 +1,3 @@
-export type * from "./IInventoryMagGen.d.ts";
-export type * from "./InventoryMagGen.d.ts";
+export type * from "./IInventoryMagGen.ts";
+export type * from "./InventoryMagGen.ts";
 export * from "./implementations/mod.ts";

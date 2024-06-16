@@ -1,1 +1,1 @@
-export type * from "./IQuestTypePool.d.ts";
+export type * from "./IQuestTypePool.ts";

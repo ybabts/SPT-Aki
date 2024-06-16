@@ -1,1 +1,1 @@
-export type * from "./ISetMagazineRequest.d.ts";
+export type * from "./ISetMagazineRequest.ts";

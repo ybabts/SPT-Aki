@@ -1,6 +1,6 @@
-export type * from "./ExhaustableArray.d.ts";
-export type * from "./IDatabaseTables.d.ts";
-export type * from "./ILocaleBase.d.ts";
-export type * from "./ILocations.d.ts";
-export type * from "./IServerBase.d.ts";
-export type * from "./ISettingsBase.d.ts";
+export type * from "./ExhaustableArray.ts";
+export type * from "./IDatabaseTables.ts";
+export type * from "./ILocaleBase.ts";
+export type * from "./ILocations.ts";
+export type * from "./IServerBase.ts";
+export type * from "./ISettingsBase.ts";

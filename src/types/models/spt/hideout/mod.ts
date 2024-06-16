@@ -1,1 +1,1 @@
-export type * from "./ScavCaseRewardCountsAndPrices.d.ts";
+export type * from "./ScavCaseRewardCountsAndPrices.ts";

@@ -1,5 +1,5 @@
-export type * from "./BotGenerationDetails.d.ts";
-export type * from "./GenerateWeaponResult.d.ts";
-export type * from "./IBotLootCache.d.ts";
-export type * from "./IChooseRandomCompatibleModResult.d.ts";
-export type * from "./IItemSpawnLimitSettings.d.ts";
+export type * from "./BotGenerationDetails.ts";
+export type * from "./GenerateWeaponResult.ts";
+export type * from "./IBotLootCache.ts";
+export type * from "./IChooseRandomCompatibleModResult.ts";
+export type * from "./IItemSpawnLimitSettings.ts";
